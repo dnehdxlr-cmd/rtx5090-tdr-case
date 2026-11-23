@@ -1,5 +1,7 @@
 # Evidence provenance and transformations
 
+[English overview](../README.en.md) · [한국어 개요](../README.md)
+
 The files below concern tests performed on 2026-11-10. They were selected for sharing on 2026-11-23. They are not the full original evidence collection.
 
 ## Unmodified workload stdout
@@ -23,4 +25,4 @@ The six JSONL files retain their original bytes; their timestamps are UTC. They 
 
 [data/environment.json](../data/environment.json), [data/cache-reset.json](../data/cache-reset.json) and [data/timeline.csv](../data/timeline.csv) are selected-field summaries, not byte-identical original logs. Paths, per-file cache names, unique device identifiers and process IDs are omitted.
 
-Full dumps, cache contents, full WER, raw stderr stack traces with private paths, EVTX and system-maintenance scripts remain outside this share package. See [PRIVACY.md](../PRIVACY.md).
+Full dumps, cache contents, full WER, raw stderr stack traces with private paths, EVTX and system-maintenance scripts remain outside this share package. See the [public evidence scope](../PRIVACY.en.md).

@@ -1,5 +1,7 @@
 # RTX 5090 GPU-loss / TDR case report
 
+[English overview](README.en.md) · [한국어 조사 기록](README.md)
+
 **Observed outcome:** On 10 November 2026, a replacement RTX 5090 reproduced GPU loss and a new full live dump with code 0x117 on driver 621.01. After backing up and resetting three CUDA/DirectX disk caches and rebooting, one run of the same short workload sequence completed without a new monitored GPU event. This does not establish cache corruption as the root cause, a permanent fix, or a healthy graphics card.
 
 Prepared for sharing on 23 November 2026 from records collected on 10 November. No follow-up stability evidence was collected for 11–23 November. Times below use KST (UTC+9); the preserved CUDA JSONL files use UTC.
@@ -63,4 +65,4 @@ Important unresolved variables:
 
 ## Shared materials
 
-[Comparison CSV](data/comparison.csv), [environment](data/environment.json), [cache summary](data/cache-reset.json), [timeline](data/timeline.csv), [evidence provenance](evidence/README.md) and the original [CUDA probe](repro/cuda_probe.py) are included. Raw dumps, full WER/EVTX, cache contents and private paths are excluded. No private artifacts are uploaded by this package. The sharing scope is documented in [PRIVACY.md](PRIVACY.md).
+[Comparison CSV](data/comparison.csv), [environment](data/environment.json), [cache summary](data/cache-reset.json), [timeline](data/timeline.csv), [evidence provenance](evidence/README.md) and the original [CUDA probe](repro/cuda_probe.py) are included. See the [workload guide](repro/README.en.md) for the commands and the [sharing scope](PRIVACY.en.md) for the selection of public evidence.
