@@ -1,0 +1,18 @@
+time_kst,event,observation,evidence_type
+2026-11-06T21:33:40+09:00,Driver update,621.14 installation success recorded; installation interval began 21:32:54.,setupapi installation record
+2026-11-10T16:04:37.998+09:00,Daytime TDR,nvlddmkm 14/153: UCodeReset TDR. Triggering workload unknown.,System events
+2026-11-10T16:05:03.830+09:00,Daytime 0x117,VIDEO_TDR_TIMEOUT_DETECTED on active driver 621.14.,dump analysis
+2026-11-10T16:06:54.244+09:00,Daytime 0x193,Graphics deadlock diagnostic dump; reason 0x810.,dump analysis
+2026-11-10T16:07:22.910+09:00,Daytime system crash,0x7F/8 double fault with repeated NVIDIA recovery frames and stack exhaustion.,dump and WER analysis
+2026-11-10T21:56:10.209+09:00,Before attention starts,"621.01 after rollback, before OS reboot.",process metadata
+2026-11-10T21:56:47.227+09:00,Before last progress,954 iterations; 35.3084273 seconds. Not exact failure onset.,CUDA stdout
+2026-11-10T21:57:29.358+09:00,New full 0x117,Full live dump later confirmed by CDB.,dump timestamp and analysis
+2026-11-10T21:57:31.573+09:00,CUDA exception,CUDA unknown error surfaces after progress stops.,CUDA stdout
+2026-11-10T21:57:43.609+09:00,Delayed WER,First 141 report follows immediate result collection; further 1B8 reports follow.,WER records
+2026-11-10T21:59:45+09:00,GPU lost,nvidia-smi exit 6; GPU is lost; no devices found.,GPU-state query
+2026-11-10T22:06:24.5+09:00,Power-cycle recovery,User forced power off/on; GPU later responds on 621.01. No old-cache load repeated.,boot record and user confirmation
+2026-11-10T22:55:13.5+09:00,Cache intervention reboot,Approved normal reboot with pending cache-directory moves.,boot/cache validation
+2026-11-10T23:03:04.216+09:00,After suite starts,Same five-stage sequence and CUDA workload bytes.,suite metadata
+2026-11-10T23:06:28.384+09:00,After attention completes,1227 iterations; 45.0236785 seconds; exit 0.,CUDA stdout and process metadata
+2026-11-10T23:08:34.786+09:00,After observation completes,120-second post-load observation; no new targeted GPU events.,suite metadata
+2026-11-10T23:10:35.130+09:00,Final recorded check,GPU responds on 621.01; no remaining owned load process. This does not cover later days.,final state query

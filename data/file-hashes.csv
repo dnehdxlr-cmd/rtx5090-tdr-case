@@ -1,0 +1,8 @@
+file,sha256,bytes,source_collection,source_file,transformation
+evidence/before/transfer.jsonl,A2B4E8AB45D554B248E9ED1A64A584F1FC70F414F272C5C38942976C388AEDC9,25968,gpu-rollback-repro-20261110,transfer-stdout.log,none; original bytes
+evidence/before/matmul.jsonl,1ABCFBE252C30827CA50FBA36B81FBE6467D2E9119216D754F56FF3F58DC595A,5020,gpu-rollback-repro-20261110,matmul-stdout.log,none; original bytes
+evidence/before/cudnn_attention.jsonl,791A85E9E38C58655901EC32F63A6A493AC2505AF0F692A94ACA268D9918B6F1,5779,gpu-rollback-repro-20261110,cudnn_attention-stdout.log,none; original bytes
+evidence/after/transfer.jsonl,FF29F9ACF5492C6FD13433379C718E51F5924E4C6613149DCCA785B41CB16FAE,27231,gpu-cache-ab-20261110-2234,transfer-stdout.log,none; original bytes
+evidence/after/matmul.jsonl,ADF97048E5745CCF9B413CF17DC3689B1CB48E58E33ECF5B0A85710B96528941,5138,gpu-cache-ab-20261110-2234,matmul-stdout.log,none; original bytes
+evidence/after/cudnn_attention.jsonl,BF0288EA84FFD956BEE98CB166981B1685A0970C673EF2AD709FB2C1F1609730,6918,gpu-cache-ab-20261110-2234,cudnn_attention-stdout.log,none; original bytes
+repro/cuda_probe.py,C119A98DF9339448568409564B2F4732A03D3574F7ED24B745EA29012B57B3A3,4417,gpu-cache-ab-20261110-2234,cuda_probe.py,none; original bytes

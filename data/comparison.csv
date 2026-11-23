@@ -1,0 +1,6 @@
+phase,condition,before_process_seconds,before_exit_code,before_loop_seconds,before_iterations,before_loop_time_kind,before_final_observation,after_process_seconds,after_exit_code,after_loop_seconds,after_iterations,after_loop_time_kind,after_final_observation
+video_encode,H.264 NVENC; 1080p60; 30 seconds,29.99,0,,,not recorded here,Completed,30.071,0,,,not recorded here,Completed; no new targeted GPU event in monitored window
+video_decode,NVIDIA D3D11 hardware decode; 30 seconds,30.523,0,,,not recorded here,Completed,30.754,0,,,not recorded here,Completed; no new targeted GPU event in monitored window
+transfer,256 MiB CPU/GPU round trip; exact bytes; 15 seconds,22.632,0,15.031394700000419,221,completed,Completed,21.798,0,15.04056890000004,232,completed,Completed; no new targeted GPU event in monitored window
+matmul,8192 x 8192; BF16; 45 seconds,46.962,0,45.00409440000021,5898,completed,Completed,47.207,0,45.000495200000046,5802,completed,Completed; no new targeted GPU event in monitored window
+cudnn_attention,"Q/K/V [1,56,16384,128]; BF16; CUDNN_ATTENTION; noncausal; dropout 0; 45 seconds",82.37,1,35.308427299999494,954,last progress; not exact failure onset,CUDA unknown error; GPU lost; full 0x117; later WER 141/1B8; forced power cycle,46.858,0,45.02367849999996,1227,completed,Completed; no new targeted GPU event in monitored window

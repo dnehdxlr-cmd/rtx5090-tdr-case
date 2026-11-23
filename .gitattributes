@@ -1,0 +1,11 @@
+# Preserve original workload and log bytes for SHA-256 comparison.
+/repro/cuda_probe.py -text
+/evidence/before/*.jsonl -text
+/evidence/after/*.jsonl -text
+# Keep documentation and selected-field data portable.
+*.md text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

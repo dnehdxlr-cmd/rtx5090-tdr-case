@@ -1,0 +1,50 @@
+CURATED DIAGNOSTIC EXCERPTS — 2026-11-10, KST
+Prepared 2026-11-23. Selected fields and stack-frame names only.
+Not a full raw dump, stack trace, WER report or system log.
+Addresses, local paths, PCI bus address and report identifiers are omitted.
+
+1. New full live dump from the 21:57 reproduction, CDB analysis
+
+VIDEO_TDR_TIMEOUT_DETECTED (117)
+BUGCHECK_CODE:  117
+PROCESS_NAME:  System
+MODULE_NAME: nvlddmkm
+IMAGE_NAME:  nvlddmkm.sys
+FAILURE_BUCKET_ID:  LKD_0x117_IMAGE_nvlddmkm.sys
+
+Selected Windows stack-frame projection, worker toward dump collection:
+dxgmms2!VidSchiCheckHwProgress+0x3b6
+  -> dxgmms2!VidSchiReportHwHang+0x658
+  -> dxgkrnl!TdrIsRecoveryRequired+0x155
+  -> dxgkrnl!TdrCollectDbgInfoStage1+0xe28
+
+The loaded NVIDIA image matched verified active driver 32.0.16.2101 (621.01).
+The generic bucket and scheduler stack do not identify the initial defect.
+NVIDIA private recovery-context symbols were not available.
+
+2. Later WER classification associated with the reproduction
+
+LKD_0x141_Tdr:6_IMAGE_nvlddmkm.sys_Blackwell
+
+WER 141 referenced a separate dump, not the full 0x117 file above.
+NVIDIA and AMD 1B8 diagnostic dumps were also recorded.
+Selected diagnostic path:
+dwm.exe -> DxgkCheckDisplayState -> LogAllDisplayDiagInfo
+  -> DxgCreateLiveDumpWithDriverBlob
+
+These display-diagnostic records alone do not identify AMD as the cause.
+Initial immediate event collection was empty; WER reports were generated later.
+
+3. GPU-state query after failure, approximately 21:59:45
+
+nvidia-smi exit code: 6
+stdout: No devices were found
+Selected stderr text: GPU is lost.  Reboot the system to recover this GPU
+
+4. Post-intervention observation, 23:10:35
+
+nvidia-smi exit code: 0
+GPU: NVIDIA GeForce RTX 5090
+Driver: 621.01
+No new targeted GPU/WHEA event was found in the recorded observation window.
+This is a bounded observation, not evidence of long-term stability.

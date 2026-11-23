@@ -1,0 +1,60 @@
+{
+  "recorded_date": "2026-11-10",
+  "prepared_date": "2026-11-23",
+  "scope": "Recorded comparison environment only; no 2026-11-11 through 2026-11-23 stability evidence was collected.",
+  "narrative_timezone": "Asia/Seoul (UTC+09:00)",
+  "cuda_stdout_timezone": "UTC",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "compute_capability": [
+    12,
+    0
+  ],
+  "windows_kernel_build": "10.0.26300.9818",
+  "daytime_incident_driver": {
+    "nvidia": "621.14",
+    "windows_file_version": "32.0.16.2114"
+  },
+  "comparison_driver": {
+    "nvidia": "621.01",
+    "windows_file_version": "32.0.16.2101",
+    "hd_audio": "1.4.6.6",
+    "installer_warning": "AfterInstall 0x80070005 remained unresolved; active core files and audio were verified, full installer success was not established."
+  },
+  "runtime": {
+    "pytorch": "2.13.0+cu130",
+    "cuda": "13.0",
+    "cudnn_version_integer": 92000,
+    "cudnn_display": "9.20",
+    "new_packages_installed_for_tests": false
+  },
+  "comparison_settings": {
+    "hags_enabled": true,
+    "HwSchMode": 2,
+    "TdrDelay_seconds": 8,
+    "TdrLevel": 3,
+    "TdrDdiDelay_present": false,
+    "power_limit_watts": 600
+  },
+  "cuda_probe": {
+    "sha256": "C119A98DF9339448568409564B2F4732A03D3574F7ED24B745EA29012B57B3A3",
+    "seed": 20261110,
+    "per_process_memory_fraction": 0.35,
+    "attention_qkv_shape": [
+      1,
+      56,
+      16384,
+      128
+    ],
+    "attention_dtype": "bfloat16",
+    "attention_backend": "CUDNN_ATTENTION",
+    "causal": false,
+    "dropout": 0.0
+  },
+  "important_limits": [
+    "Before-run failure occurred after driver rollback but before OS reboot.",
+    "After-run pass followed cache reset and reboot; no old-cache reboot-only control.",
+    "Only one bounded after-run sequence was performed.",
+    "Prior direct-cuDNN fixed engine plan is not the same route as this PyTorch SDPA workload.",
+    "Temperature and power samples were before/after readings, not in-test peaks."
+  ]
+}

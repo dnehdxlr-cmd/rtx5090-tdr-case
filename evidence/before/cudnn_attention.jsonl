@@ -1,0 +1,37 @@
+{"time": "2026-11-10T12:56:11.916472+00:00", "event": "environment", "mode": "cudnn_attention", "torch": "2.13.0+cu130", "cuda": "13.0", "cudnn": 92000, "device": "NVIDIA GeForce RTX 5090", "capability": [12, 0]}
+{"time": "2026-11-10T12:56:11.991948+00:00", "event": "shape", "shape": [1, 56, 16384, 128], "dtype": "bfloat16", "backend": "CUDNN_ATTENTION", "causal": false, "dropout": 0.0, "limitation": "PyTorch cuDNN path; not the old direct-cuDNN engine-plan reproduction"}
+{"time": "2026-11-10T12:56:14.542005+00:00", "event": "progress", "iterations": 13, "elapsed": 1.0076951999999437, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:14.576525+00:00", "event": "progress", "iterations": 14, "elapsed": 2.657951299999695, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:15.581660+00:00", "event": "progress", "iterations": 44, "elapsed": 3.663041799999519, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:16.587259+00:00", "event": "progress", "iterations": 74, "elapsed": 4.668651599999976, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:17.618061+00:00", "event": "progress", "iterations": 105, "elapsed": 5.699493299999631, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:18.649891+00:00", "event": "progress", "iterations": 136, "elapsed": 6.731315699999868, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:19.676262+00:00", "event": "progress", "iterations": 166, "elapsed": 7.757639499999641, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:20.706011+00:00", "event": "progress", "iterations": 196, "elapsed": 8.787349799999902, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:21.729787+00:00", "event": "progress", "iterations": 226, "elapsed": 9.81122249999953, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:22.744806+00:00", "event": "progress", "iterations": 256, "elapsed": 10.8262193999999, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:23.752058+00:00", "event": "progress", "iterations": 286, "elapsed": 11.833262399999512, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:24.780710+00:00", "event": "progress", "iterations": 316, "elapsed": 12.862143899999865, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:25.790133+00:00", "event": "progress", "iterations": 345, "elapsed": 13.871495200000027, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:26.803842+00:00", "event": "progress", "iterations": 375, "elapsed": 14.884831700000177, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:27.818142+00:00", "event": "progress", "iterations": 405, "elapsed": 15.899472799999785, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:28.824596+00:00", "event": "progress", "iterations": 434, "elapsed": 16.905998299999737, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:29.855426+00:00", "event": "progress", "iterations": 464, "elapsed": 17.93680679999943, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:30.872075+00:00", "event": "progress", "iterations": 494, "elapsed": 18.95349720000013, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:31.895711+00:00", "event": "progress", "iterations": 524, "elapsed": 19.977089399999386, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:32.900270+00:00", "event": "progress", "iterations": 553, "elapsed": 20.98168209999949, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:33.926391+00:00", "event": "progress", "iterations": 583, "elapsed": 22.007818999999472, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:34.954373+00:00", "event": "progress", "iterations": 613, "elapsed": 23.03579720000016, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:35.974399+00:00", "event": "progress", "iterations": 643, "elapsed": 24.055815099999563, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:36.982576+00:00", "event": "progress", "iterations": 672, "elapsed": 25.06385859999955, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:37.983961+00:00", "event": "progress", "iterations": 701, "elapsed": 26.065377299999454, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:39.005353+00:00", "event": "progress", "iterations": 731, "elapsed": 27.086786799999572, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:40.025384+00:00", "event": "progress", "iterations": 761, "elapsed": 28.106781399999818, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:41.044583+00:00", "event": "progress", "iterations": 790, "elapsed": 29.125990399999864, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:42.072736+00:00", "event": "progress", "iterations": 820, "elapsed": 30.1541301999996, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:43.094699+00:00", "event": "progress", "iterations": 850, "elapsed": 31.176118999999744, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:44.140859+00:00", "event": "progress", "iterations": 878, "elapsed": 32.222133599999324, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:45.170899+00:00", "event": "progress", "iterations": 904, "elapsed": 33.25229880000006, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:46.202122+00:00", "event": "progress", "iterations": 929, "elapsed": 34.28346839999995, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:56:47.227010+00:00", "event": "progress", "iterations": 954, "elapsed": 35.308427299999494, "allocated_bytes": 939524096}
+{"time": "2026-11-10T12:57:31.572585+00:00", "event": "failed", "error": "AcceleratorError(\"CUDA error: unknown error\\nSearch for `cudaErrorUnknown' in https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__TYPES.html for more information.\\nFor more detailed error information, run with CUDA_LOG_FILE=stderr\\n\")"}

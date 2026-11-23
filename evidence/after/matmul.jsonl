@@ -1,0 +1,35 @@
+{"time": "2026-11-10T14:04:49.523103+00:00", "event": "environment", "mode": "matmul", "torch": "2.13.0+cu130", "cuda": "13.0", "cudnn": 92000, "device": "NVIDIA GeForce RTX 5090", "capability": [12, 0]}
+{"time": "2026-11-10T14:04:50.717966+00:00", "event": "shape", "n": 8192, "dtype": "bfloat16"}
+{"time": "2026-11-10T14:05:04.312813+00:00", "event": "progress", "iterations": 1, "elapsed": 11.672100600000022, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:04.404615+00:00", "event": "progress", "iterations": 2, "elapsed": 14.841915599999993, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:05.371269+00:00", "event": "progress", "iterations": 170, "elapsed": 15.846549500000037, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:06.374173+00:00", "event": "progress", "iterations": 366, "elapsed": 16.84942890000002, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:07.378986+00:00", "event": "progress", "iterations": 559, "elapsed": 17.854249800000048, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:08.379070+00:00", "event": "progress", "iterations": 755, "elapsed": 18.854333300000008, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:09.383077+00:00", "event": "progress", "iterations": 951, "elapsed": 19.85795200000007, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:10.384122+00:00", "event": "progress", "iterations": 1145, "elapsed": 20.859298700000068, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:11.384565+00:00", "event": "progress", "iterations": 1336, "elapsed": 21.859737300000006, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:12.388086+00:00", "event": "progress", "iterations": 1531, "elapsed": 22.863322500000095, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:13.392318+00:00", "event": "progress", "iterations": 1726, "elapsed": 23.8673589, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:14.393968+00:00", "event": "progress", "iterations": 1919, "elapsed": 24.869195800000057, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:15.394075+00:00", "event": "progress", "iterations": 2110, "elapsed": 25.86932980000006, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:16.394369+00:00", "event": "progress", "iterations": 2304, "elapsed": 26.869633600000043, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:17.399238+00:00", "event": "progress", "iterations": 2499, "elapsed": 27.874488500000098, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:18.402220+00:00", "event": "progress", "iterations": 2693, "elapsed": 28.877482500000042, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:19.404951+00:00", "event": "progress", "iterations": 2884, "elapsed": 29.88017350000007, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:20.409872+00:00", "event": "progress", "iterations": 3079, "elapsed": 30.885088800000062, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:21.410343+00:00", "event": "progress", "iterations": 3274, "elapsed": 31.885592400000064, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:22.415865+00:00", "event": "progress", "iterations": 3469, "elapsed": 32.8910022, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:23.420483+00:00", "event": "progress", "iterations": 3660, "elapsed": 33.895727400000055, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:24.423760+00:00", "event": "progress", "iterations": 3855, "elapsed": 34.8990149, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:25.428693+00:00", "event": "progress", "iterations": 4051, "elapsed": 35.9039150000001, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:26.429166+00:00", "event": "progress", "iterations": 4244, "elapsed": 36.9044126, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:27.430478+00:00", "event": "progress", "iterations": 4434, "elapsed": 37.9057160000001, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:28.432348+00:00", "event": "progress", "iterations": 4628, "elapsed": 38.907611400000064, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:29.434406+00:00", "event": "progress", "iterations": 4823, "elapsed": 39.909582200000045, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:30.436097+00:00", "event": "progress", "iterations": 5016, "elapsed": 40.91086930000006, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:31.439714+00:00", "event": "progress", "iterations": 5207, "elapsed": 41.91496820000009, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:32.442280+00:00", "event": "progress", "iterations": 5400, "elapsed": 42.917509100000075, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:33.447399+00:00", "event": "progress", "iterations": 5595, "elapsed": 43.922404200000074, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:34.449842+00:00", "event": "progress", "iterations": 5788, "elapsed": 44.925100300000054, "allocated_bytes": 436207616}
+{"time": "2026-11-10T14:05:34.524674+00:00", "event": "completed", "iterations": 5802, "elapsed": 45.000495200000046, "peak_allocated_bytes": 771751936}

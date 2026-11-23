@@ -1,0 +1,53 @@
+{
+  "recorded_date": "2026-11-10",
+  "prepared_date": "2026-11-23",
+  "method": "Original directories retained locally; locked cache directories moved to backup early in an approved reboot. No original cache contents are included in this package.",
+  "original_cuda_backup": {
+    "files": 830,
+    "logical_file_bytes": 1991680050
+  },
+  "at_reboot_backups_and_live_verification": [
+    {
+      "name": "CUDA-ComputeCache",
+      "backup_files": 2,
+      "logical_file_bytes": 8,
+      "live_created_at": "2026-11-10T22:55:43.8057053+09:00",
+      "live_files_before_test": 6,
+      "preboot_modified_files_in_live_path": 0
+    },
+    {
+      "name": "NVIDIA-DXCache",
+      "backup_files": 694,
+      "logical_file_bytes": 31736401920,
+      "live_created_at": "2026-11-10T22:55:38.0497881+09:00",
+      "live_files_before_test": 69,
+      "preboot_modified_files_in_live_path": 0
+    },
+    {
+      "name": "Windows-D3DSCache",
+      "backup_files": 290,
+      "logical_file_bytes": 4413861888,
+      "live_created_at": "2026-11-10T22:57:40.2991027+09:00",
+      "live_files_before_test": 29,
+      "preboot_modified_files_in_live_path": 0
+    }
+  ],
+  "boot_at": "2026-11-10T22:55:13.5+09:00",
+  "verified_at": "2026-11-10T23:02:43.7645783+09:00",
+  "pending_cache_moves_remaining": 0,
+  "validation_note": "CUDA and NVIDIA DXCache inventories matched in existence and length. Four Windows D3DSCache WAL/SHM sidecar files from the pre-boot inventory were absent after shutdown/reboot; remaining main files matched in existence and length. File lengths are logical sizes, not allocated disk usage. No bytewise verification of all cache contents is claimed.",
+  "other_state_changes": [
+    "NVIDIA service and overlay briefly restarted to release CUDA cache lock, then restored.",
+    "OS reboot accompanied the cache intervention."
+  ],
+  "after_test": {
+    "started_at": "2026-11-10T23:03:04.2166032+09:00",
+    "completed_at": "2026-11-10T23:08:34.7862773+09:00",
+    "post_load_observation_seconds": 120,
+    "new_targeted_gpu_events": 0,
+    "collection_errors": 0,
+    "final_gpu_check_at": "2026-11-10T23:10:35.1300173+09:00",
+    "final_smi_exit_code": 0
+  },
+  "interpretation": "One bounded pass after combined cache reset and reboot; individual cache effects and reboot effects are not isolated."
+}
